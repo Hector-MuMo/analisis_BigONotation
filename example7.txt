@@ -1,6 +1,6 @@
 ¿Cuales de las siguientes sentencias son equivalentes a O(N)? ¿por qué?
 
-1. O(N + P) donde P < n/2
-2. O(2N)
-3. O(N + log N)
-4. O(N + M)
+1. O(N + P) donde P < n/2 -- Verdadero, ya que se eliminan las constantes
+2. O(2N) -- Verdadero, ya que se eliminan las constantes
+3. O(N + log N) -- Falso, ya que se quitan terminos no dominantes
+4. O(N + M) -- Falso, ya que existen dos entradas
